@@ -1,37 +1,18 @@
-#EXTM3U
-#EXTINF:14390,ert1
-https://cdn.nclr.eu/hls/ert1gr_src.m3u8
-#EXTINF:0,ert2
-https://cdn.nclr.eu/hls/ert2gr_src.m3u8
-#EXTINF:0,ert3
-https://cdn.nclr.eu/hls/ert3gr_src.m3u8
-#EXTINF:0,ERT NEWS
-https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/ert_news_main/main_1080/chunks_dvr.m3u8
-#EXTINF:0,ERT WORLD 
-https://cdn.nclr.eu/hls/ERTWorld_src.m3u8
-#EXTINF:0,ΕΡΤ Sports
-https://cdn.nclr.eu/hls/ErtSportsHD_src.m3u8
-#EXTINF:0,MEGA
-http://streamcdnh5-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
-#EXTINF:0,MEGA SD
-https://cdn.nclr.eu/hls/MegaSD_src.m3u8
-#EXTINF:0,OPEN BEYOND
-http://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8
-#EXTINF:0,STAR 
-http://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
 #EXTM3U url-tvg="https://github.com/GreekTVApp/EPG-GRCY/releases/download/EPG/epg.xml.gz"
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="ERT 1" tvg-logo="https://i.imgur.com/slE8U5m.png",ERT1 HD
-http://cbd537474fbad4634b64787657ff6456.msvdn.net/ert1/ert_ev1_main/mainabr/playlist_dvr.m3u8
+https://cdn.nclr.eu/hls/ert1gr_src.m3u8
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="ERT 2" tvg-logo="https://i.imgur.com/o4BUdoL.png",ERT2 HD
-http://cbd537474fbad4634b64787657ff6456.msvdn.net/ert2/ert_ev2_main/mainabr/playlist_dvr.m3u8
+https://cdn.nclr.eu/hls/ert2gr_src.m3u8
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="ERT 3" tvg-logo="https://i.imgur.com/rv4JLBO.png",ERT3 HD
-http://cbd537474fbad4634b64787657ff6456.msvdn.net/ert3/ert_ev3_main/mainabr/playlist_dvr.m3u8
+https://cdn.nclr.eu/hls/ert3gr_src.m3u8
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="ertnews" tvg-logo="https://i.imgur.com/XwLTzaF.jpg",ERT NEWS
-https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/playlist_dvr.m3u8
+https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/ert_news_main/main_1080/chunks_dvr.m3u8
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="mega" tvg-logo="https://i.imgur.com/Dy4RR7G.png",MEGA HD
 http://streamcdnh19-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="mega" tvg-logo="https://i.imgur.com/Dy4RR7G.png",MEGA HD BUP
 http://135.181.180.153:8976/Mega/index.m3u8
+#EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="mega" tvg-logo="https://i.imgur.com/Dy4RR7G.png",MEGA SD
+https://cdn.nclr.eu/hls/MegaSD_src.m3u8
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="ant1" tvg-logo="https://i.imgur.com/V1w22Or.png",ANT1 HD
 http://135.181.180.153:8976/Ant1HD/index.m3u8 
 #EXTINF:-1 group-title="ΠΑΝΕΛΛΑΔΙΚΑ" tvg-name="alpha" tvg-logo="https://i.imgur.com/utv0rWj.png",ALPHA HD
@@ -84,6 +65,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=-IEei-d2ZK4
 #EXTINF:-1 group-title="ΔΙΕΘΝΗ ΔΙΚΤΥΑ" tvg-name="ertworld" tvg-logo="https://i.imgur.com/Jjds4h5.png",ERT WORLD 
 http://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/playlist_dvr.m3u8
+#EXTINF:-1 group-title="ΔΙΕΘΝΗ ΔΙΚΤΥΑ" tvg-name="ertworld" tvg-logo="https://i.imgur.com/Jjds4h5.png",ERT WORLD BUP
+https://cdn.nclr.eu/hls/ERTWorld_src.m3u8
 #EXTINF:-1 group-title="ΔΙΕΘΝΗ ΔΙΚΤΥΑ" tvg-name="cyta.euronews.cy" tvg-logo="https://i.imgur.com/g7s60c1.png",EURONEWS 
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/embed/video/x2j7kha&checkedby:Greektv
 #EXTINF:-1 group-title="ΔΙΕΘΝΗ ΔΙΚΤΥΑ" tvg-name="cyta.euronews.cy" tvg-logo="https://i.imgur.com/g7s60c1.png",EURONEWS BUP
@@ -326,6 +309,8 @@ https://ssai.castify.ai/media/ae034f39-2a81-4faf-ac63-52746ebca9fb/profile/0/pro
 http://live.streams.ovh:1935/tvfilopoli/tvfilopoli/playlist.m3u8
 #EXTINF:-1 group-title="WEB TV" tvg-name="ertsports" tvg-logo="https://i.imgur.com/hxajA2g.png",ERT SPORTS 
 http://cbd537474fbad4634b64787657ff6456.msvdn.net/sports1/ert_sports1_main/mainabr/playlist.m3u8
+#EXTINF:-1 group-title="WEB TV" tvg-name="ertsports" tvg-logo="https://i.imgur.com/hxajA2g.png",ERT SPORTS BUP
+https://cdn.nclr.eu/hls/ErtSportsHD_src.m3u8
 #EXTINF:-1 group-title="WEB TV" tvg-name="ertsports2" tvg-logo="https://i.imgur.com/hxajA2g.png",ERT SPORTS 2
 http://cbd537474fbad4634b64787657ff6456.msvdn.net/sports2/ert_sports2_main/mainabr/playlist.m3u8
 #EXTINF:-1 group-title="WEB TV" tvg-logo="https://i.imgur.com/w4lIGYn.png",HORSE RACES
